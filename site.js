@@ -143,12 +143,8 @@
   /* live upcoming due dates */
   var dl = document.getElementById("due-list");
   if (dl) {
-    var RULES = [
-      { day: 7, label: "TDS / TCS deposit for previous month", aprilDay: 30 },
-      { day: 11, label: "GSTR-1 (monthly filers)" },
-      { day: 15, label: "PF & ESI contributions" },
-      { day: 20, label: "GSTR-3B (monthly filers)" }
-    ];
+    var D = window.DEADLINES || { monthly: [], special: [] };
+    var RULES = D.monthly;
     var today = new Date(); today.setHours(0, 0, 0, 0);
     var out = [];
     for (var m = 0; m < 3; m++) {
@@ -160,8 +156,12 @@
         if (dt >= today) out.push({ dt: dt, label: r.label });
       });
     }
+    (D.special || []).forEach(function (x) {
+      var dt = new Date(x.date + "T00:00:00");
+      if (dt >= today) out.push({ dt: dt, label: x.label, special: true });
+    });
     out.sort(function (a, b) { return a.dt - b.dt; });
-    dl.innerHTML = out.slice(0, 4).map(function (x) {
+    dl.innerHTML = out.slice(0, 5).map(function (x) {
       var days = Math.round((x.dt - today) / 864e5);
       var c = days === 0 ? "Today" : days === 1 ? "Tomorrow" : "in " + days + " days";
       return '<li><div class="d"><b>' + x.dt.getDate() + "</b><span>" + x.dt.toLocaleDateString("en-IN", { month: "short" }) +
