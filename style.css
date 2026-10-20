@@ -303,3 +303,22 @@ a.svc:hover .arrow{opacity:1;transform:none}
 .faddr{margin-top:14px}
 .faddr b{display:block;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:2px}
 .map-embed{display:block;width:100%;height:220px;border:0;border-radius:10px;margin-top:16px;background:var(--accent-soft)}
+/* Times New Roman everywhere */
+body,h1,h2,h3,h4,button,input,select,textarea,
+.brand .txt b,.svc .n,.svc-detail .n,.dl .d b,.dates b,.marquee,.glass h3 small,.step::before{
+  font-family:"Times New Roman",Times,"Liberation Serif",serif !important;
+}
+body{font-size:17.5px}
+/* proprietor portrait */
+.profile{display:grid;grid-template-columns:360px 1fr;gap:64px;align-items:center}
+.portrait{position:relative;margin:0}
+.portrait::before{content:"";position:absolute;inset:18px -18px -18px 18px;border:2px solid var(--gold);border-radius:18px;z-index:0}
+.portrait img{position:relative;z-index:1;display:block;width:100%;height:auto;border-radius:18px;background:#fff;box-shadow:0 24px 48px -28px rgba(14,31,61,.55)}
+.portrait figcaption{position:absolute;z-index:2;left:16px;right:16px;bottom:16px;background:var(--ink);color:#fff;border-radius:12px;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.portrait figcaption b{font-size:1.02rem}
+.portrait figcaption span{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.role{color:var(--accent) !important;font-weight:600;margin-bottom:20px !important}
+@media (max-width:900px){
+  .profile{grid-template-columns:1fr;gap:44px}
+  .portrait{max-width:320px;margin:0 auto 0 0}
+}
