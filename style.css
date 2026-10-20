@@ -322,3 +322,19 @@ body{font-size:17.5px}
   .profile{grid-template-columns:1fr;gap:44px}
   .portrait{max-width:320px;margin:0 auto 0 0}
 }
+/* portrait v2: clean, centred card */
+.portrait::before{display:none}
+.portrait{background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 24px 48px -28px rgba(14,31,61,.55);border-bottom:4px solid var(--gold)}
+.portrait img{border-radius:0;box-shadow:none}
+.portrait figcaption{position:static;border-radius:0;padding:14px 20px}
+.profile{align-items:center}
+@media (max-width:900px){.portrait{margin:0 auto}}
+/* 360° office view (replaces portrait) */
+.profile{grid-template-columns:1.1fr 1fr;gap:56px}
+.tour{margin:0;background:var(--card);border:1px solid var(--line);border-bottom:4px solid var(--gold);border-radius:18px;overflow:hidden;box-shadow:0 24px 48px -28px rgba(14,31,61,.55)}
+.tour-frame{position:relative;aspect-ratio:4/3;background:var(--accent-soft)}
+.tour-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.tour figcaption{background:var(--ink);color:#fff;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.tour figcaption b{font-size:1rem}
+.tour figcaption span{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
+@media (max-width:900px){.profile{grid-template-columns:1fr}}
