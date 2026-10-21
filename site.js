@@ -179,3 +179,14 @@
     els.forEach(function (el, k) { el.style.transitionDelay = (k % 4) * 70 + "ms"; io.observe(el); });
   } else { els.forEach(function (el) { el.classList.add("in"); }); }
 })();
+
+/* intro splash: once per visit, click to skip */
+(function () {
+  var root = document.documentElement, sp = document.getElementById("splash");
+  if (!sp || !root.classList.contains("intro")) { if (sp) sp.remove(); return; }
+  try { sessionStorage.setItem("aa-intro", "1"); } catch (e) {}
+  function done() { root.classList.remove("intro"); if (sp.parentNode) sp.remove(); }
+  sp.addEventListener("animationend", function (e) { if (e.animationName === "splashOut") done(); });
+  sp.addEventListener("click", done);
+  setTimeout(done, 4000);
+})();
