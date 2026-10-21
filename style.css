@@ -362,3 +362,6 @@ body{font-size:17.5px}
 .intro .dark-hero h1,.intro .dark-hero .lead,.intro .dark-hero .cta,.intro .dark-hero .glass{animation:heroIn .9s ease 2.85s both}
 @keyframes heroIn{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
 @media (max-width:560px){.splash-logo{width:108px;height:108px}.splash-name{font-size:1.35rem}.splash-sub{letter-spacing:.3em}.splash-line{width:170px}}
+/* larger splash logo */
+.splash-logo{width:220px;height:220px;margin-bottom:28px}
+@media (max-width:560px){.splash-logo{width:170px;height:170px}}
