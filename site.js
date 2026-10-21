@@ -23,7 +23,7 @@
     header.className = "site-header";
     header.innerHTML =
       '<div class="wrap nav">' +
-        '<a class="brand" href="index.html"><img class="logo" src="logo.png" alt="Amritpreet &amp; Associates logo" width="68" height="68">' +
+        '<a class="brand" href="index.html"><img class="logo" src="logo.png?v=2" alt="Amritpreet &amp; Associates logo" width="68" height="68">' +
         '<span class="txt"><b>Amritpreet &amp; Associates</b><span>Chartered Accountants</span></span></a>' +
         '<button class="menu-btn" aria-label="Open menu">Menu</button>' +
         '<ul class="tabs">' +
@@ -43,7 +43,7 @@
     footer.innerHTML =
       '<div class="wrap">' +
         '<div class="fgrid">' +
-          "<div><img src=\"logo.png\" alt=\"\" width=\"120\" height=\"120\" style=\"margin-bottom:14px\"><h4>Amritpreet &amp; Associates</h4>" +
+          "<div><img src=\"logo.png?v=2\" alt=\"\" width=\"120\" height=\"120\" style=\"margin-bottom:14px\"><h4>Amritpreet &amp; Associates</h4>" +
           "<p>Chartered Accountants</p>" +
           "<p class=\"faddr\"><b>First Office</b><a href=\"https://maps.app.goo.gl/pUbe4gB2zqvdwZUa9\" target=\"_blank\" rel=\"noopener\">4th Floor, Kartar Bhawan, Firozpur Road,<br>Near PAU Gate No. 1, Ludhiana, Punjab 141004</a></p>" +
           "<p class=\"faddr\"><b>Second Office</b><a href=\"https://maps.app.goo.gl/yPmrNe5ddGHJmnCw6\" target=\"_blank\" rel=\"noopener\">8687/2A, Street No. 19, Kot Mangal Singh,<br>Ludhiana, Punjab 141003</a></p></div>" +
