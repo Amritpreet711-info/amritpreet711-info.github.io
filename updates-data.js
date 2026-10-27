@@ -13,6 +13,44 @@
 */
 window.UPDATES = [
   {
+    date: "2026-10-24",
+    category: "Company Law",
+    title: "MCA extends time for FY 2025-26 annual filings without additional fees",
+    summary: "The Ministry of Corporate Affairs has extended the time for filing financial statements and annual returns for FY 2025-26 without payment of additional fees.",
+    points: [
+      "AOC-4, AOC-4 (CFS), AOC-4 (XBRL), AOC-4 NBFC (Ind AS) and AOC-4 CFS NBFC (Ind AS): by 31 December 2026",
+      "MGT-7 and MGT-7A: by 31 January 2027",
+      "The time for holding AGMs is not extended",
+      "Given effect by MCA General Circular No. 05/2026 dated 24 October 2026"
+    ],
+    source: "https://www.mca.gov.in/bin/dms/getdocument?mds=5vSiNq59rdjIZwZqMbEIgQ%253D%253D&type=open"
+  },
+  {
+    date: "2026-10-22",
+    category: "GST",
+    title: "CBIC: GST Council reforms to roll out in phases; draft return forms open for comments",
+    summary: "CBIC officials stated that reforms recommended by the 57th GST Council which do not need amendments to the law will start tentatively from 1 November 2026, in phases. No notification has been issued yet.",
+    points: [
+      "Automated refund sanctioning, where applicable, for future claims",
+      "Changes needing amendments (prosecution thresholds, ₹10,000 threshold for notices, e-way bill provisions) are targeted for 1 April 2027",
+      "Draft revised GSTR-1, GSTR-1A and IFF to be placed on myGov.in from 1 November 2026 for public comments until 30 November 2026; revised forms to apply from 1 April 2027"
+    ],
+    source: "https://kashmirobserver.net/2026/10/22/gst-reforms-to-roll-out-in-phases-from-nov-1-cbic/"
+  },
+  {
+    date: "2026-10-16",
+    category: "GST",
+    title: "GSTN introduces e-invoicing for self-invoices under reverse charge",
+    summary: "GSTN Advisory No. 678 introduces e-invoicing for recipient-generated self-invoices under reverse charge, for taxpayers with aggregate annual turnover of ₹5 crore and above.",
+    points: [
+      "RCMDOM: domestic supplies from unregistered persons",
+      "RCMIMP: import of services",
+      "Currently available only in the sandbox (testing) environment of the e-invoice portals",
+      "Date of live rollout and start of reporting to be announced separately"
+    ],
+    source: "https://services.gst.gov.in/services/advisoryandreleases/read/678"
+  },
+  {
     date: "2026-09-28",
     category: "Income Tax",
     title: "Due dates extended for tax audit reports and ITRs of audit cases (AY 2026-27)",

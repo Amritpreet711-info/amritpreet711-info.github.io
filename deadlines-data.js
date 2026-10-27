@@ -16,7 +16,9 @@ window.DEADLINES = {
     { day: 20, label: "GSTR-3B (monthly filers)" }
   ],
   special: [
-    { date: "2026-10-21", label: "Tax audit report, AY 2026-27 (extended)" },
-    { date: "2026-11-21", label: "ITR for audit cases, AY 2026-27 (extended)" }
+    { date: "2026-11-21", label: "ITR for audit cases, AY 2026-27 (extended)" },
+    { date: "2026-12-15", label: "Advance tax, 3rd instalment (75%), FY 2026-27" },
+    { date: "2026-12-31", label: "AOC-4, FY 2025-26 (extended)" },
+    { date: "2027-01-31", label: "MGT-7 / MGT-7A, FY 2025-26 (extended)" }
   ]
 };
