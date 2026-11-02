@@ -13,6 +13,61 @@
 */
 window.UPDATES = [
   {
+    date: "2026-10-28",
+    category: "GST",
+    title: "CBIC Circulars 265 and 266 clarify GST on certain supplies",
+    summary: "CBIC has issued Circular Nos. 265/11/2026-GST and 266/12/2026-GST dated 28 October 2026, clarifying input tax credit under the margin scheme and the GST treatment of certain services.",
+    points: [
+      "Used-vehicle dealers under the margin scheme: the ITC restriction applies only to tax paid on the second-hand vehicles procured; ITC on other inputs and input services is available, subject to the CGST Act",
+      "Grant-funded R&D: a certificate from the head of the eligible institution, stating that the activity is R&D and not consultancy, may suffice to claim the exemption",
+      "Motor vehicle leasing: registration charges, insurance, FASTag and similar recoveries form part of the leasing supply and are taxed at the leasing rate",
+      "TRAI is not 'Government' under section 2(53) of the CGST Act",
+      "Notional interest under a bank's Fund Transfer Pricing mechanism falls within 'interest' for the exemption under Notification 12/2017-CT(Rate)",
+      "Lending services provided by NBFCs to banks under co-lending arrangements are taxable, with value as per the contract"
+    ],
+    source: "https://taxguru.in/goods-and-service-tax/cbic-clarifies-gst-grants-shipping-vehicle-leasing-trai-bank-interest-nbfc-lending.html"
+  },
+  {
+    date: "2026-10-27",
+    category: "GST",
+    title: "GST TDS extended to used cooking oil, plastic and tyre scrap, metal scrap and e-waste from 1 November 2026",
+    summary: "Under Notification No. 07/2026-Central Tax dated 27 October 2026, registered persons receiving specified goods from registered suppliers must deduct TDS under section 51 of the CGST Act from 1 November 2026.",
+    points: [
+      "Goods covered: used cooking oil (heading 1518), waste and scrap of plastics (3915), waste and scrap of tyres (4004), metal scrap (Chapters 72 to 81) and electrical and electronic waste and scrap (8549)",
+      "TDS at 2% of taxable value (1% CGST + 1% SGST, or 2% IGST), where the value of supply under a contract exceeds ₹2,50,000",
+      "Notification No. 06/2026-Central Tax withdraws the special registration exemption for suppliers of these goods",
+      "GSTN advisory dated 1 November 2026 explains TDS registration in Form GST REG-07"
+    ],
+    source: "https://taxguru.in/goods-and-service-tax/gst-tds-scrap-cooking-oil-waste-1-november-2026.html"
+  },
+  {
+    date: "2026-10-26",
+    category: "GST",
+    title: "CGST Act amendments on discounts, credit notes and refunds in force from 1 November 2026",
+    summary: "Notification No. 03/2026-Central Tax dated 26 October 2026 brings sections 153 to 155 of the Finance Act, 2026 into force from 1 November 2026, amending sections 15, 34 and 54 of the CGST Act.",
+    points: [
+      "Post-supply discounts can be excluded from the value of supply where the supplier issues a credit note and the recipient reverses the related ITC",
+      "Section 34 expressly permits credit notes for discounts given after the supply",
+      "The 90% provisional refund now also covers refunds of unutilised ITC in inverted duty structure cases",
+      "Refunds of tax paid on goods exported with payment of tax are carved out of the minimum refund amount under section 54(14)"
+    ],
+    source: "https://taxguru.in/goods-and-service-tax/gst-amendments-effective-1-november-2026-discounts-credit-notes-refunds.html"
+  },
+  {
+    date: "2026-10-26",
+    category: "GST",
+    title: "CBIC issues eight circulars following the 57th GST Council meeting",
+    summary: "CBIC has issued Circular Nos. 257/03/2026-GST to 264/10/2026-GST dated 26 October 2026, giving clarifications and guidelines on a range of procedural issues.",
+    points: [
+      "Registration: documents, officer queries and processing timelines (Circular 257)",
+      "Show cause notices, adjudication and first appeals (Circular 258), and computation of pre-deposit for appeals (Circular 259)",
+      "Input Service Distributor (Circular 260) and the section 17(4) option for banks and NBFCs (Circular 261)",
+      "ITC on demo vehicles is available to dealers under the dealer-agency model (Circular 262)",
+      "Realisation of export proceeds (Circular 263) and omission of Rule 96(10) (Circular 264)"
+    ],
+    source: "https://taxguru.in/goods-and-service-tax/council-circular-cbic-implemented-57th-gst-council-current-title.html"
+  },
+  {
     date: "2026-10-24",
     category: "Company Law",
     title: "MCA extends time for FY 2025-26 annual filings without additional fees",
