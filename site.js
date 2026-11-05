@@ -132,7 +132,7 @@
       var d = new Date(f.date.value + "T00:00:00").toLocaleDateString("en-IN", { weekday: "short", day: "numeric", month: "short", year: "numeric" });
       return "Consultation request from website\n\nName: " + f.name.value + "\nPhone: " + f.phone.value +
         (f.email.value ? "\nEmail: " + f.email.value : "") + "\nService: " + f.service.value + "\nMode: " + f.mode.value +
-        "\nPreferred date: " + d + "\nPreferred time: " + f.time.value + "\n\n" + f.message.value;
+        "\nPreferred date: " + d + "\nTime slot: " + f.time.value + "\n\n" + f.message.value;
     }
     book.addEventListener("submit", function (e) {
       e.preventDefault();
