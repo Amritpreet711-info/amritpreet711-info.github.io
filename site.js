@@ -16,6 +16,7 @@
     ["updates.html", "Updates"],
     ["contact.html", "Contact"]
   ];
+  var BOOK = ["book.html", "Book consultation"];
   var here = location.pathname.split("/").pop() || "index.html";
 
   var header = document.getElementById("site-header");
@@ -30,6 +31,7 @@
           TABS.map(function (t) {
             return '<li><a href="' + t[0] + '"' + (t[0] === here ? ' class="active" aria-current="page"' : "") + ">" + t[1] + "</a></li>";
           }).join("") +
+          '<li><a class="tab-cta' + (BOOK[0] === here ? " active" : "") + '" href="' + BOOK[0] + '">' + BOOK[1] + "</a></li>" +
         "</ul>" +
       "</div>";
     header.querySelector(".menu-btn").onclick = function () {
@@ -48,7 +50,7 @@
           "<p class=\"faddr\"><b>First Office</b><a href=\"https://maps.app.goo.gl/pUbe4gB2zqvdwZUa9\" target=\"_blank\" rel=\"noopener\">4th Floor, Kartar Bhawan, Firozpur Road,<br>Near PAU Gate No. 1, Ludhiana, Punjab 141004</a></p>" +
           "<p class=\"faddr\"><b>Second Office</b><a href=\"https://maps.app.goo.gl/yPmrNe5ddGHJmnCw6\" target=\"_blank\" rel=\"noopener\">8687/2A, Street No. 19, Kot Mangal Singh,<br>Ludhiana, Punjab 141003</a></p></div>" +
           "<div><h4>Pages</h4><ul>" +
-            TABS.map(function (t) { return '<li><a href="' + t[0] + '">' + t[1] + "</a></li>"; }).join("") +
+            TABS.concat([BOOK]).map(function (t) { return '<li><a href="' + t[0] + '">' + t[1] + "</a></li>"; }).join("") +
           "</ul></div>" +
           "<div><h4>Contact</h4><ul>" +
             '<li><a href="tel:' + FIRM.tel1 + '">' + FIRM.phone1 + "</a></li>" +
@@ -117,6 +119,29 @@
     document.getElementById("send-email").onclick = function () {
       if (!form.reportValidity()) return;
       location.href = "mailto:" + FIRM.email + "?subject=" + encodeURIComponent("Website enquiry – " + form.elements.service.value) + "&body=" + encodeURIComponent(msg());
+    };
+  }
+  /* ---------- Consultation booking → WhatsApp / email ---------- */
+  var book = document.getElementById("booking");
+  if (book) {
+    var dateIn = book.elements.date;
+    var tm = new Date(); tm.setDate(tm.getDate() + 1);
+    dateIn.min = tm.getFullYear() + "-" + String(tm.getMonth() + 1).padStart(2, "0") + "-" + String(tm.getDate()).padStart(2, "0");
+    function bmsg() {
+      var f = book.elements;
+      var d = new Date(f.date.value + "T00:00:00").toLocaleDateString("en-IN", { weekday: "short", day: "numeric", month: "short", year: "numeric" });
+      return "Consultation request from website\n\nName: " + f.name.value + "\nPhone: " + f.phone.value +
+        (f.email.value ? "\nEmail: " + f.email.value : "") + "\nService: " + f.service.value + "\nMode: " + f.mode.value +
+        "\nPreferred date: " + d + "\nPreferred time: " + f.time.value + "\n\n" + f.message.value;
+    }
+    book.addEventListener("submit", function (e) {
+      e.preventDefault();
+      if (!book.reportValidity()) return;
+      window.open("https://wa.me/" + FIRM.whatsapp + "?text=" + encodeURIComponent(bmsg()), "_blank", "noopener");
+    });
+    document.getElementById("book-email").onclick = function () {
+      if (!book.reportValidity()) return;
+      location.href = "mailto:" + FIRM.email + "?subject=" + encodeURIComponent("Consultation request – " + book.elements.service.value) + "&body=" + encodeURIComponent(bmsg());
     };
   }
 })();

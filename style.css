@@ -365,3 +365,16 @@ body{font-size:17.5px}
 /* larger splash logo */
 .splash-logo{width:220px;height:220px;margin-bottom:28px}
 @media (max-width:560px){.splash-logo{width:170px;height:170px}}
+
+/* ================= consultation booking ================= */
+.tabs a.tab-cta{background:var(--accent);color:#fff;margin-left:6px}
+.tabs a.tab-cta:hover{background:var(--ink)}
+.tabs a.tab-cta.active{background:var(--ink)}
+.form .note{font-size:.82rem;color:var(--muted);background:var(--accent-soft);border-radius:8px;padding:10px 12px;margin:2px 0 16px}
+.steps-mini h2{font-size:1.5rem;margin-bottom:14px}
+.steps-mini ol{list-style:none;counter-reset:s}
+.steps-mini li{counter-increment:s;position:relative;padding:14px 0 14px 46px;border-top:1px solid var(--line);color:var(--ink-2);font-size:.95rem}
+.steps-mini li:first-child{border-top:0}
+.steps-mini li::before{content:counter(s);position:absolute;left:0;top:12px;width:30px;height:30px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font-family:Fraunces,Georgia,serif;font-size:.9rem}
+.steps-mini b{color:var(--ink)}
+@media (max-width:900px){.tabs a.tab-cta{margin:6px 0 0;text-align:center}}
