@@ -13,6 +13,60 @@
 */
 window.UPDATES = [
   {
+    date: "2026-11-01",
+    category: "GST",
+    title: "GSTN advisory on registration of e-commerce sellers under new Rule 14B",
+    summary: "GSTN has issued an advisory on the new Rule 14B of the CGST Rules (inserted by Notification No. 05/2026-Central Tax), under which a seller supplying goods through an e-commerce operator can obtain registration in another State or UT using the operator's warehouse.",
+    points: [
+      "Available to a person with an active regular registration under the same PAN in another State or UT and no physical presence or active registration in the target State",
+      "Only for supplies made through e-commerce operators; output tax liability on supplies to registered persons should not exceed ₹2.5 lakh per month",
+      "An approved warehouse of the e-commerce operator is declared as the place of business, with the operator's consent",
+      "Application is made in Part B of Form GST REG-01; Aadhaar authentication and document verification must be completed within the specified time for ARN generation"
+    ],
+    source: "https://services.gst.gov.in/services/advisoryandreleases/read/682"
+  },
+  {
+    date: "2026-10-30",
+    category: "GST",
+    title: "CBIC Instruction 02/2026-GST: interim limits on arrests, e-way bill interception and small notices",
+    summary: "Pending amendments to the CGST Act recommended by the 57th GST Council, CBIC has issued Instruction No. 02/2026-GST dated 30 October 2026 to Central Tax field formations.",
+    points: [
+      "No further arrests are to be made under GST, in view of the recommendation to omit section 69",
+      "Conveyances are to be intercepted only on specific intelligence, with written authorisation by an officer not below the rank of Joint Commissioner",
+      "Inspection, detention or seizure is generally limited to cases where the supplier or recipient is registered or located in the officer's State or UT; this limit does not apply where there is no e-way bill and no document showing origin or destination",
+      "Goods or conveyances in transit are not to be confiscated under section 130",
+      "Show cause notices under sections 73, 74 and 74A are not to be issued where the amount involved (CGST, SGST/UTGST, IGST and cess together) is below ₹10,000",
+      "The instruction applies until the corresponding legislative amendments take effect"
+    ],
+    source: "https://taxinformation.cbic.gov.in/view-pdf/1000592/ENG/Instructions"
+  },
+  {
+    date: "2026-10-27",
+    category: "GST",
+    title: "GST rate and exemption changes for services from 1 November 2026",
+    summary: "CBIC has issued Notification Nos. 02/2026 to 10/2026-Central Tax (Rate) dated 27 October 2026, with corresponding Integrated Tax (Rate) notifications, changing rates, ITC conditions and exemptions for certain goods and services from 1 November 2026.",
+    points: [
+      "Passenger transport by electric vehicles and renting of electric vehicles: 5%, subject to the prescribed ITC conditions",
+      "Hotel accommodation (rooms up to ₹7,500 per day), restaurant services and outdoor catering continue at 5%, with ITC allowed on same-line input services subject to limits",
+      "Specified delivery services through e-commerce operators: 5% without ITC; the e-commerce operator pays tax on delivery services (other than postal and courier) unless the supplier is liable to register under section 22(1)",
+      "New exemptions include services of the Seamen's Provident Fund Organisation, storage of seeds for sowing, grant of toll collection rights by government, curing of coffee, and seat-share helicopter travel to specified North-Eastern areas",
+      "Reverse charge on used cooking oil, plastic waste, tyre waste and e-waste supplied by unregistered persons to registered persons",
+      "Retreaded tractor tyres: 5%; psyllium seeds: exempt"
+    ],
+    source: ""
+  },
+  {
+    date: "2026-10-27",
+    category: "Company Law",
+    title: "No additional fees on CRA-4 for FY 2025-26 filed up to 31 December 2026",
+    summary: "MCA General Circular No. 06/2026 dated 27 October 2026 provides that Form CRA-4 (cost audit report in XBRL) for FY 2025-26 filed up to 31 December 2026 will not attract additional fees.",
+    points: [
+      "Filings after 31 December 2026 will attract additional fees, counted from the original due date",
+      "The circular relaxes additional fees; it does not change the due date under the Companies (Cost Records and Audit) Rules, 2014"
+    ],
+    source: "https://www.mca.gov.in/bin/ebook/dms/getdocument?doc=Njk5ODUxNzY2&docCategory=Circulars&type=open"
+  },
+  {
     date: "2026-10-30",
     category: "NGO",
     title: "Conditions prescribed for merger of registered non-profit organisations (Rule 189A)",
