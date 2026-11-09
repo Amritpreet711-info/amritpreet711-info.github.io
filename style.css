@@ -365,3 +365,8 @@ body{font-size:17.5px}
 /* larger splash logo */
 .splash-logo{width:220px;height:220px;margin-bottom:28px}
 @media (max-width:560px){.splash-logo{width:170px;height:170px}}
+
+/* highlighted booking button in menu */
+.tabs a.book{background:var(--gold);color:var(--ink);font-weight:600;margin-left:6px}
+.tabs a.book:hover{background:#e6c88d}
+@media (max-width:900px){.tabs a.book{margin:6px 0 0;text-align:center}}

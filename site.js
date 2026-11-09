@@ -30,6 +30,7 @@
           TABS.map(function (t) {
             return '<li><a href="' + t[0] + '"' + (t[0] === here ? ' class="active" aria-current="page"' : "") + ">" + t[1] + "</a></li>";
           }).join("") +
+          '<li><a class="book" data-book-link href="contact.html#enquiry">Book consultation</a></li>' +
         "</ul>" +
       "</div>";
     header.querySelector(".menu-btn").onclick = function () {
