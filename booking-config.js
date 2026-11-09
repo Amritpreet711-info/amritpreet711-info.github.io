@@ -9,7 +9,7 @@
   Never put Cashfree API keys / secret keys in this file — only the public form link.
 */
 window.BOOKING = {
-  url: ""
+  url: "https://payments.cashfree.com/forms/amritpreet-consultation"
 };
 
 (function () {
