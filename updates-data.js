@@ -13,6 +13,20 @@
 */
 window.UPDATES = [
   {
+    date: "2026-10-30",
+    category: "NGO",
+    title: "Conditions prescribed for merger of registered non-profit organisations (Rule 189A)",
+    summary: "CBDT has notified the Income-tax (Eighth Amendment) Rules, 2026 (Notification No. 139/2026 dated 30 October 2026), inserting Rule 189A and Form 112A for the merger of registered non-profit organisations having the same or similar objects.",
+    points: [
+      "An organisation with regular registration under section 332 cannot merge with one holding provisional registration, and vice versa",
+      "No tax, interest, penalty or other demand should be outstanding, except where under appeal; the merged organisation must pay it once the appeal becomes final",
+      "The merged organisation cannot amend its objects for five years from the end of the financial year of the merger",
+      "Books of account of both organisations must be audited by an accountant as on the date of merger",
+      "Form 112A must be filed electronically (DSC or EVC) with the jurisdictional Principal Commissioner or Commissioner within one month from the end of the month in which the merger takes effect"
+    ],
+    source: "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-10/Notification-No-139-2026.pdf"
+  },
+  {
     date: "2026-10-28",
     category: "GST",
     title: "CBIC Circulars 265 and 266 clarify GST on certain supplies",
