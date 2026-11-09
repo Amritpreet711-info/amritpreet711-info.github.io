@@ -129,7 +129,7 @@ window.UPDATES = [
       "Income-tax return (audit cases): extended from 31 October 2026 to 21 November 2026",
       "Given effect by CBDT Circular No. 07/2026 dated 28 September 2026"
     ],
-    source: "https://ksandk.com/newsletter/income-tax-return-filing-deadline-for-ay-2026-27-extended-to-21-november-2026-tax-audit-deadline-revised/"
+    source: "https://www.incometax.gov.in/iec/foportal/sites/default/files/2026-09/Circular-7-2026.pdf"
   },
   {
     date: "2026-10-12",
@@ -143,7 +143,7 @@ window.UPDATES = [
       "No notices for tax amounts below ₹10,000; pending notices below this to be withdrawn",
       "Prosecution threshold proposed to rise from ₹1 crore to ₹5 crore"
     ],
-    source: "https://www.drishtiias.com/daily-updates/daily-news-analysis/57th-gst-council-meeting/print_manually"
+    source: "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2320934"
   },
   {
     date: "2026-04-01",
