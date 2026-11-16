@@ -17,6 +17,7 @@ window.DEADLINES = {
   ],
   special: [
     { date: "2026-11-21", label: "ITR for audit cases, AY 2026-27 (extended)" },
+    { date: "2026-11-30", label: "ITR for transfer pricing cases (Form 3CEB), AY 2026-27" },
     { date: "2026-12-15", label: "Advance tax, 3rd instalment (75%), FY 2026-27" },
     { date: "2026-12-31", label: "AOC-4, FY 2025-26 (extended)" },
     { date: "2026-12-31", label: "CRA-4, FY 2025-26 (without additional fees)" },

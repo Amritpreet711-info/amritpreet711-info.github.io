@@ -13,6 +13,44 @@
 */
 window.UPDATES = [
   {
+    date: "2026-11-04",
+    category: "GST",
+    title: "E-way bill numbers to become 14 digits from 1 January 2027",
+    summary: "GSTN Advisory No. 687 states that the length of e-way bill and consolidated e-way bill numbers will be increased from 1 January 2027.",
+    points: [
+      "E-way bill (EWB) number: from 12 digits to 14 digits",
+      "Consolidated e-way bill (CEWB) number: from 10 digits to 11 digits",
+      "Existing EWB and CEWB numbers remain valid and unchanged",
+      "Taxpayers, GSPs and ERP providers should ensure their systems accept the new lengths; the new format is available for testing in the sandbox"
+    ],
+    source: "https://www.gst.gov.in/newsandupdates/read/687"
+  },
+  {
+    date: "2026-11-01",
+    category: "GST",
+    title: "GST registration amendments, other than principal place of business, now auto-accepted",
+    summary: "GSTN Advisory No. 686 explains the revised amendment process in FORM GST REG-14 under Rule 19 of the CGST Rules, as substituted by Notification No. 05/2026-Central Tax, effective 1 November 2026.",
+    points: [
+      "Changes such as legal name, addition or removal of partners, directors or Karta, and additional places of business: registration stands amended on submission and online validation",
+      "Change of principal place of business continues to be examined by the proper officer",
+      "OTP verification of the Primary Authorised Signatory and one selected promoter, partner, director, Karta, member or trustee must be completed within 3 days, failing which no ARN is generated",
+      "PAN, DIN and CIN (where applicable) are validated online before the ARN is generated"
+    ],
+    source: "https://www.gst.gov.in/newsandupdates/read/686"
+  },
+  {
+    date: "2026-11-01",
+    category: "GST",
+    title: "Comments invited on alternate mechanism for amending liability and ITC in GST returns",
+    summary: "Suggestions are invited on MyGov on a proposed alternate mechanism for making amendments of liabilities and input tax credit in GST returns, recommended by the GST Council at its 57th meeting on 8 October 2026.",
+    points: [
+      "Aim: to minimise mismatches and reduce notices or intimations arising from them",
+      "The proposal includes amendments to the CGST Rules, 2017 and CGST forms, set out in a detailed note",
+      "Suggestions can be submitted from 1 November 2026 to 30 November 2026"
+    ],
+    source: "https://innovateindia.mygov.in/inviting-suggestions-for-the-proposed-alternate-mechanism-for-making-amendment-in-liability-and-itc-in-gst/"
+  },
+  {
     date: "2026-11-01",
     category: "GST",
     title: "GSTN advisory on registration of e-commerce sellers under new Rule 14B",
